@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7697A0</color>
+    <color name="colorPrimaryLight">#94B0B7</color>
+<!--    #7F886A-->
+<!--    DF8E73 accent-->
+<!--    68796E light-->
+<!--    F0E3D7 beige-->
+<!--    B1BEB4 (?)-->
+
+    <color name="colorPrimaryDark">#526B71</color>
+    <color name="colorAccent">#DDDDDA</color>
+    <color name="colorAccentDark">#D1CDCD</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorText">#474444</color>
+    <color name="colorGreen">#89D17D</color>
+    <color name="colorPink">#F5BAAE</color>
+    <color name="colorGreenDark">#4E8345</color>
+    <color name="colorGrey">#837E7E</color>
+    <color name="colorBlueWish">#6BB0C5</color>
+
+    <!-- Material DEFAULT colors -->
+    <color name="material_drawer_primary">#7697A0</color>
+    <color name="material_drawer_primary_dark">#526B71</color>
+    <color name="material_drawer_primary_light">#BBDEFB</color>
+    <color name="material_drawer_accent">#F5BAAE</color>
+
+    <!-- OVERWRITE THESE COLORS FOR A LIGHT THEME -->
+    <!-- MaterialDrawer DEFAULT colors -->
+    <color name="material_drawer_background">#DDDDDA</color>
+    <!-- Material DEFAULT text / items colors -->
+    <color name="material_drawer_primary_text">@color/colorBlack</color>
+    <color name="material_drawer_primary_icon">#8A000000</color>
+    <color name="material_drawer_secondary_text">#8A000000</color>
+    <color name="material_drawer_hint_text">#42000000</color>
+    <color name="material_drawer_divider">#1F000000</color>
+    <!-- Material DEFAULT drawer colors -->
+    <color name="material_drawer_selected">#417697A0</color>
+    <color name="material_drawer_selected_legacy">#DDDDDA</color>
+    <color name="material_drawer_selected_text">@color/colorPrimary</color>
+    <color name="material_drawer_header_selection_text">@color/colorAccent</color>
+    <color name="material_drawer_header_selection_subtext">@color/colorAccentDark</color>
+</resources>

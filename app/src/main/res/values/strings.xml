@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Messenger</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings_default_username">User</string>
+    <string name="settings_default_status">online</string>
+    <string name="settings_text_account">account</string>
+    <string name="settings_default_number">+791111111111</string>
+    <string name="settings_label_phone_number">telephone number</string>
+    <string name="settings_default_login">username</string>
+    <string name="settings_label_login">Click to change your username</string>
+    <string name="settings_default_bio">About me</string>
+    <string name="settings_label_bio">Write a little about yourself</string>
+    <string name="settings_menu_change_name">Change name</string>
+    <string name="settings_menu_exit">Edit and Out</string>
+    <string name="cd_register_image">register_image</string>
+    <string name="register_text_enter_code">Enter the code</string>
+    <string name="register_text_we_sent">We sent an SMS with a verification code to your phone</string>
+    <string name="register_title_your_phone">Your phone</string>
+    <string name="register_toast_enter_phone">Enter your phone number</string>
+    <string name="settings_hint_input_name">name</string>
+    <string name="settings_hint_input_surname">surname</string>
+    <string name="settings_toast_name_is_empty">Name cannot be empty</string>
+    <string name="toast_data_update">Updated data</string>
+    <string name="settings_hint_input_username">username</string>
+    <string name="settings_input_bio">bio</string>
+    <string name="clear_chat">Clear chat</string>
+    <string name="delete_chat">Delete chat</string>
+    <string name="create_group">Create a group</string>
+    <string name="todo">TODO</string>
+    <string name="using_your_phone">Using Your Phone</string>
+    <string name="message">Message</string>
+
+    <plurals name="count_members">
+        <item quantity="one">%d participant</item>
+        <item quantity="few">%d participant</item>
+        <item quantity="many">%d Participants</item>
+        <item quantity="other">%d Participants</item>
+    </plurals>
+</resources>
