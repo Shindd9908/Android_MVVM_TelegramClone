@@ -7,6 +7,7 @@ import com.example.messenger.database.AUTH
 import com.example.messenger.utilits.*
 import com.google.firebase.FirebaseException
 import com.google.firebase.auth.PhoneAuthCredential
+import com.google.firebase.auth.PhoneAuthOptions
 import com.google.firebase.auth.PhoneAuthProvider
 import kotlinx.android.synthetic.main.fragment_enter_phone_number.*
 import java.util.concurrent.TimeUnit
@@ -57,12 +58,21 @@ class EnterPhoneNumberFragment : Fragment(R.layout.fragment_enter_phone_number) 
 
     private fun authUser() {
         mPhoneNumber = register_input_phone_number.text.toString()
-        PhoneAuthProvider.getInstance().verifyPhoneNumber(
+        /*PhoneAuthProvider.verifyPhoneNumber(
             mPhoneNumber,
             60,
             TimeUnit.SECONDS,
             APP_ACTIVITY,
             mCallback
-        )
+        )*/
+
+        val options = PhoneAuthOptions.newBuilder(AUTH)
+            .setPhoneNumber(mPhoneNumber)       // Phone number to verify
+            .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
+            .setActivity(APP_ACTIVITY)                 // Activity (for callback binding)
+            .setCallbacks(mCallback)          // OnVerificationStateChangedCallbacks
+            .build()
+
+        PhoneAuthProvider.verifyPhoneNumber(options)
     }
 }
