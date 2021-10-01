@@ -28,9 +28,9 @@
     <string name="clear_chat">Clear chat</string>
     <string name="delete_chat">Delete chat</string>
     <string name="create_group">Create a group</string>
-    <string name="todo">TODO</string>
-    <string name="using_your_phone">Using Your Phone</string>
-    <string name="message">Message</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="using_your_phone" translatable="false">Using Your Phone</string>
+    <string name="message" translatable="false">Message</string>
 
     <plurals name="count_members">
         <item quantity="one">%d participant</item>
